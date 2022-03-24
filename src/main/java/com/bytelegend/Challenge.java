@@ -9,7 +9,7 @@ public class Challenge {
     }
 
     private static String add(int... ints) {
-        int sum;
+        int sum = 0;
         for (int i : ints) {
             sum += i;
         }
