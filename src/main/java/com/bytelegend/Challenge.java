@@ -8,7 +8,7 @@ public class Challenge {
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
 
-    public static String add(int... ints) {
+    public static int add(int... ints) {
         int sum = 0;
         for (int i : ints) {
             sum += i;
