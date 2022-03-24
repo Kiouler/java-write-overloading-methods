@@ -13,7 +13,7 @@ public class Challenge {
         for (int i : ints) {
             sum += i;
         }
-        return sum.toString();
+        return Integer.toString(sum);
     }
 
     private static String add(String... strs) {
