@@ -1,7 +1,5 @@
 package com.bytelegend;
 
-import java.util.stream.IntStream;
-
 public class Challenge {
     public static void main(String[] args) {
         System.out.println("1+2=" + add(1, 2));
@@ -11,7 +9,11 @@ public class Challenge {
     }
 
     private static String add(int... ints) {
-        return IntStream.of(ints).sum().toString();
+        int sum;
+        for (int i : ints) {
+            sum += i;
+        }
+        return sum;
     }
 
     private static String add(String... strs) {
