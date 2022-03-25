@@ -10,7 +10,7 @@ public class Challenge {
 
     private static int add(int... ints) {
         int x = 0;
-        for (var y : ints) {
+        for (int y : ints) {
             x += y;
         }
         return x;
@@ -18,7 +18,7 @@ public class Challenge {
 
     private static String add(String... str) {
         var sb = new StringBuffer();
-        for (var i : str) {
+        for (String i : str) {
             sb.append(i);
         }
         return sb.toString();
