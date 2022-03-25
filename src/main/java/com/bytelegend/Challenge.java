@@ -10,15 +10,15 @@ public class Challenge {
 
     public static int add(int... values) {
         int sum = 0;
-        for(int item : values) {
+        for (int item : values) {
             sum += item;
         }
         return sum;
     }
 
     public static String add(String... values) {
-        String sum = 0;
-        for(String item : values) {
+        String sum = "";
+        for (String item : values) {
             sum += item;
         }
         return sum;
