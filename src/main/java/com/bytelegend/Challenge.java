@@ -17,7 +17,7 @@ public class Challenge {
     }
 
     private static String add(String... str) {
-        var sb = new StringBuffer();
+        StringBuffer sb = new StringBuffer();
         for (String i : str) {
             sb.append(i);
         }
