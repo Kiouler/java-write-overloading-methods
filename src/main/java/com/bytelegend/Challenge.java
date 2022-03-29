@@ -9,18 +9,21 @@ public class Challenge {
     }
 
 	public static Integer add(int i, int j) {
-		return i + j;
+		int sum = i+j;
+		return sum;
 	}
 	
-	private static Integer add(int i, int j, int k) {
-		return i + j + k;
+	public static Integer add(int i, int j, int k) {
+		int sum =  i + j + k;
+		return sum;
 	}
 	
-	private static Integer  add(int i, int j, int k, int l) {
-		return i + j + k + l;
+	public static Integer  add(int i, int j, int k, int l) {
+		int sum = i + j + k + l;
+		return sum;
 	}
 	
-	private static String add(String i, String j, String k) {
+	public static String add(String i, String j, String k) {
 		return i + j + k;
 	}
 }
