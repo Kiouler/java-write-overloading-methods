@@ -10,13 +10,13 @@ public class Challenge {
         private static int add(int a, int b) {
         return a + b;
     }
-    static int add (int a, int b, int c) {
+    public static int add (int a, int b, int c) {
         return a + b + c;
     }
-    static int add (int a, int b, int c, int d) {
+    public static int add (int a, int b, int c, int d) {
         return a + b + c + d;
     }
-    static String add(String a, String b, String c) {
+    public static String add(String a, String b, String c) {
         return a + b + c;
     }
 }
