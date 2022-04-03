@@ -20,7 +20,7 @@ public class Challenge {
         return a + b + c + d;
     }
 
-    public static int add(String a, String b, String c) {
+    public static String add(String a, String b, String c) {
         return a + b + c;
     }
 }
