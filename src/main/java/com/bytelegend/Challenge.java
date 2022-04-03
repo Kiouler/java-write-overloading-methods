@@ -8,19 +8,19 @@ public class Challenge {
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
 
-    private int add(Integer i, Integer j){
+    public static int add(Integer i, Integer j){
         return i+j;
     }
 
-    private int add(Integer i, Integer j, Integer k){
+    public static int add(Integer i, Integer j, Integer k){
         return i+j+k;
     }
 
-    private int add(Integer i, Integer j, Integer k, Integer n){
+    public static int add(Integer i, Integer j, Integer k, Integer n){
         return i+j+k+n;
     }
 
-    private String add(String a, String b, String c){
+    public static String add(String a, String b, String c){
         return a+b+c;
     }
 }
