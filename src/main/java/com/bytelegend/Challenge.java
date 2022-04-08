@@ -1,6 +1,18 @@
 package com.bytelegend;
 
 public class Challenge {
+    static int add(int a, int b){
+        return a + b;
+    }
+    static int add(int a, int b, int c){
+        return a + b + c;
+    }
+    static int add(int a, int b, int c, int d){
+        return a + b + c + d;
+    }
+    static String add(String a, String b, String c){
+        return a + b + c;
+    }
     public static void main(String[] args) {
         System.out.println("1+2=" + add(1, 2));
         System.out.println("1+2+3=" + add(1, 2, 3));
