@@ -14,7 +14,6 @@ public class Challenge {
         for (Object object:objects
              ) {
            if (object instanceof String) {
-               resultString = resultInt + "";
                flag = true;
            }
            if (flag) {
