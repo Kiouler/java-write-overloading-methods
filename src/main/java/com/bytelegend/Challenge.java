@@ -1,16 +1,16 @@
 package com.bytelegend;
 
 public class Challenge {
-    private int add(int a, int b) {
+    public int add(int a, int b) {
         return a + b;
     }
-    private int add(int a, int b, int c) {
-        return a + b + c
+    public int add(int a, int b, int c) {
+        return a + b + c;
     }
-    private int add(int a, int b, int c, int d) {
+    public int add(int a, int b, int c, int d) {
         return a + b + c + d;
     }
-    private String add(String a, String b, String c) {
+    public String add(String a, String b, String c) {
         return a + b + c;
     }
     public static void main(String[] args) {
