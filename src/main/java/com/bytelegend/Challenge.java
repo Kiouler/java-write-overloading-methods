@@ -7,24 +7,20 @@ public class Challenge {
         System.out.println("1+2+3+4=" + add(1, 2, 3, 4));
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
-
-    private static Integer add(Integer i, Integer i1) {
-        return i + i1;
+    
+    public static int add(int num1, int num2) {
+        return num1 + num2;
     }
 
-    private static Integer add(Integer i, Integer i1, Integer i2) {
-        return i + i1 + i2;
+    public static int add(int num1, int num2, int num3) {
+        return num1 + num2 + num3;
     }
 
-    private static Integer add(Integer i, Integer i1, Integer i2, Integer i3) {
-        return i + i1 + i2 + i3;
+    public static int add(int num1, int num2, int num3, int num4) {
+        return num1 + num2 + num3 + num4;
     }
 
-    private static String add(String s, String s1, String s2) {
-        StringBuilder sb = new StringBuilder();
-        sb.append(s);
-        sb.append(s1);
-        sb.append(s2);
-        return sb.toString();
+    public static String add(String s1, String s2, String s3) {
+        return s1 + s2 + s3;
     }
 }
