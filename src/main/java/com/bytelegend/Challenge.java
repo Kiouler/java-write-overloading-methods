@@ -21,6 +21,10 @@ public class Challenge {
     }
 
     private static String add(String s, String s1, String s2) {
-        return s + s1 + s2;
+        StringBuilder sb = new StringBuilder();
+        sb.append(s);
+        sb.append(s1);
+        sb.append(s2);
+        return sb.toString();
     }
 }
