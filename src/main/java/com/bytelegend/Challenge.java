@@ -8,15 +8,15 @@ public class Challenge{
         System.out.println("A+B+C="+add("A","B","C"));
     }
 
-    private static Integer add(int i,int i1){
+    private static Integer add(Integer i,Integer i1){
         return i+i1;
     }
 
-    private static Integer add(int i,int i1,int i2){
+    private static Integer add(Integer i,Integer i1,Integer i2){
         return i+i1+i2;
     }
 
-    private static Integer add(int i,int i1,int i2,int i3){
+    private static Integer add(Integer i,Integer i1,Integer i2,Integer i3){
         return i+i1+i2+i3;
     }
 
