@@ -21,6 +21,6 @@ public class Challenge {
     }
 
     public static String add(String a, String b, String c) {
-        return a + "+" + b + "+" + c;
+        return a + b + c;
     }
 }
