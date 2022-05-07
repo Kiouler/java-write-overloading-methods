@@ -15,7 +15,7 @@ public class Challenge {
         return a;
     }
     public static String add(String... arr){
-        String a = 0;
+        String a = "";
         for (String i:arr){
             a += i;
         }
