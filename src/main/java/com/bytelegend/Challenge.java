@@ -18,5 +18,4 @@ public class Challenge {
         for (int num: nums) out += num;
         return out;
     }
-
 }
