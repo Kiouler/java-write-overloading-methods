@@ -16,7 +16,7 @@ public class Challenge {
     public static int add(int i3, int j3, int k3, int m3) {
         return i3 + j3 + k3 + m3;
     }
-    public static int add(char i4, char j4, char k4) {
+    public static char add(char i4, char j4, char k4) {
         return (char) (i4 + j4 + k4);
     }
 }
