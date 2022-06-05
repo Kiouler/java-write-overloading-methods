@@ -18,4 +18,5 @@ public class Challenge {
     }
     public static  String add(String string1, String string2, String string3) {
         return   string1 + string2+ string3;
+    }
 }
