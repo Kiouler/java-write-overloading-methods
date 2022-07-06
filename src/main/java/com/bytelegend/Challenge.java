@@ -8,7 +8,7 @@ public class Challenge {
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
 
-    public int add(int ... arg) {
+    public static int add(int ... arg) {
         int sum = 0;
         for (int a : arg) {
             sum += a;
@@ -16,7 +16,7 @@ public class Challenge {
         return sum;
     }
 
-    public String add(String a, String b, String c) {
+    public static String add(String a, String b, String c) {
         return a + b + c;
     }
 }
