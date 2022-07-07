@@ -17,7 +17,7 @@ public class Challenge {
  static int add(int x, int y, int z, int a) {
   return x + y + z + a;
 }
- static String add(String x, String y, String) {
+ static String add(String x, String y, String z) {
   return x + y + z;
 }
 
