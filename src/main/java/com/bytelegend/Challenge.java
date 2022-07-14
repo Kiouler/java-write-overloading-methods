@@ -1,5 +1,4 @@
 package com.bytelegend;
-import javax.imageio.metadata.IIOMetadataFormatImpl;
 
 public class Challenge {
     public static void main(String[] args) {
@@ -8,21 +7,4 @@ public class Challenge {
         System.out.println("1+2+3+4=" + add(1, 2, 3, 4));
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
-    public static int add(int a, int b) {
-        return a + b;
-    }
-    public static int add(int a, int b,int c) {
-        return a + b+ c;
-    }
-    public static int add(int a, int b,int c,int d) {
-       int sum;
-        sum = a+b+c+d;
-        return sum;
-    }
-    public static String add(String a, String b,String c) {
-        String s;
-        s=  a + b+ c ;
-        return s;
-    }
-
 }
