@@ -8,12 +8,19 @@ public class Challenge {
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
 
-    public static int add(int... i) {
-        return Arrays.stream(i).sum();
+    public static int add(int a, int b) {
+        return a + b;
     }
 
-    public static String add(String... str) {
-        return Arrays.stream(str)
-                .reduce("", (s1, s2) -> s1 + s2);
+    public static int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public static int add(int a, int b, int c) {
+        return a + b + c + d;
+    }
+
+    public static String add(String a, String b, String c) {
+        return a + b + c;
     }
 }
