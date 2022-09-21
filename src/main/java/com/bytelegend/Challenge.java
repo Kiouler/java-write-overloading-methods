@@ -8,7 +8,7 @@ public class Challenge {
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
 
-    public static int add(inta, int b) {
+    public static int add(int a, int b) {
         return a + b;
     }
     public static int add(int a, int b, int c) {
