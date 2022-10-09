@@ -34,7 +34,7 @@ public class Challenge {
      * @return
      */
     private static int add(int i, int i1, int i2) {
-        return i + i1 + i2 ;
+        return i + i1 + i2;
 
     }
 
