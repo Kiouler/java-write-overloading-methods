@@ -4,7 +4,7 @@ package com.bytelegend;
  * @author haohao
  */
 public class Challenge {
-    
+
     /**
      * 主方法
      * @param args
@@ -22,8 +22,8 @@ public class Challenge {
      * @param i1
      * @return
      */
-    private static int add(int i, int i1) {
-        return i + i1;
+    public static String add(int i, int i1) {
+        return String.valueOf(i + i1);
     }
 
     /**
@@ -33,8 +33,8 @@ public class Challenge {
      * @param i2
      * @return
      */
-    private static int add(int i, int i1, int i2) {
-        return i + i1 + i2;
+    public static String add(int i, int i1, int i2) {
+        return String.valueOf(i + i1 + i2);
 
     }
 
@@ -46,8 +46,8 @@ public class Challenge {
      * @param i3
      * @return
      */
-    private static int add(int i, int i1, int i2, int i3) {
-        return i + i1 + i2 + i3;
+    public static String add(int i, int i1, int i2, int i3) {
+        return String.valueOf(i + i1 + i2 + i3);
     }
 
     /**
@@ -57,7 +57,7 @@ public class Challenge {
      * @param c
      * @return
      */
-    private static String add(String a, String b, String c) {
+    public static String add(String a, String b, String c) {
         return  a + b + c;
     }
 }
