@@ -22,8 +22,8 @@ public class Challenge {
      * @param i1
      * @return
      */
-    public static String add(int i, int i1) {
-        return String.valueOf(i + i1);
+    public static Integer add(int i, int i1) {
+        return i + i1;
     }
 
     /**
@@ -33,8 +33,8 @@ public class Challenge {
      * @param i2
      * @return
      */
-    public static String add(int i, int i1, int i2) {
-        return String.valueOf(i + i1 + i2);
+    public static Integer add(int i, int i1, int i2) {
+        return i + i1 + i2;
 
     }
 
@@ -46,8 +46,8 @@ public class Challenge {
      * @param i3
      * @return
      */
-    public static String add(int i, int i1, int i2, int i3) {
-        return String.valueOf(i + i1 + i2 + i3);
+    public static Integer add(int i, int i1, int i2, int i3) {
+        return i + i1 + i2 + i3;
     }
 
     /**
