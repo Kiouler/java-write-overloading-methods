@@ -1,8 +1,5 @@
 package com.bytelegend;
 
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
-
 public class Challenge {
     public static void main(String[] args) {
         System.out.println("1+2=" + add(1, 2));
