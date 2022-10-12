@@ -1,5 +1,8 @@
 package com.bytelegend;
 
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
+
 public class Challenge {
     public static void main(String[] args) {
         System.out.println("1+2=" + add(1, 2));
@@ -7,16 +10,16 @@ public class Challenge {
         System.out.println("1+2+3+4=" + add(1, 2, 3, 4));
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
-    public static int add(int a, int b){
-        return a+b;
+    public static int add(int a, int b) {
+        return a + b;
     }
-    public static int add(int a, int b, int c){
-        return a+b+c;
+    public static int add(int a, int b, int c) {
+        return a + b + c;
     }
-    public static int add(int a, int b, int c, int d){
-        return a+b+c+d;
+    public static int add(int a, int b, int c, int d) {
+        return a + b + c + d;
     }
-    public static @NotNull String add(String s, String s1, String s2){
-        return s+s1+s2;
+    public static String add(String s, String s1, String s2) {
+        return s + s1 + s2;
     }
 }
