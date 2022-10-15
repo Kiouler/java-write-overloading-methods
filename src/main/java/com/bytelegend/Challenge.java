@@ -9,17 +9,16 @@ public class Challenge {
     }
 
 
-    public Integer add(Integer a,Integer b){
+    public static Integer add(Integer a, Integer b){
         return a+b;
     }
-    public Integer add(Integer a,Integer b,Integer c){
+    public static Integer add(Integer a,Integer b,Integer c){
         return a+b+c;
     }
-    public Integer add(Integer a,Integer b,Integer c,Integer d){
+    public static Integer add(Integer a,Integer b,Integer c,Integer d){
         return a+b+c+d;
     }
-    public String add(String a,String b,String c){
+    public static String add(String a,String b,String c){
         return a+b+c;
     }
-
 }
