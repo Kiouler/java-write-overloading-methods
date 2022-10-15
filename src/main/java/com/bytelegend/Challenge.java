@@ -9,13 +9,13 @@ public class Challenge {
     }
 
 
-    public int add(int a,int b){
+    public Integer add(Integer a,Integer b){
         return a+b;
     }
-    public int add(int a,int b,int c){
+    public Integer add(Integer a,Integer b,Integer c){
         return a+b+c;
     }
-    public int add(int a,int b,int c,int d){
+    public Integer add(Integer a,Integer b,Integer c,Integer d){
         return a+b+c+d;
     }
     public String add(String a,String b,String c){
