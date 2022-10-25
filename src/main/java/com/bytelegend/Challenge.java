@@ -8,18 +8,19 @@ public class Challenge {
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
 
+    @overload
     private static int add(int a,int b){
         return a+b;
     }
-
+    @overload
     private static int add(int a,int b,int c){
         return a+b+c;
     }
-
+    @overload
     private static int add(int a,int b,int c,int d){
         return a+b+c+d;
     }
-
+    @overload
     private static String add(String a,String b,String c){
         return a+b+c;
     }
