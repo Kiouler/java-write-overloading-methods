@@ -8,6 +8,10 @@ public class Challenge {
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
 
+    public static String add(String string, String string2) {
+        return String.valueOf(string + string2);
+    }
+
     public static String add(String string, String string2, String string3) {
         return String.valueOf(string + string2 + string3);
     }
