@@ -9,7 +9,7 @@ public class Challenge {
     }
 
     public static String add(String string, String string2, String string3) {
-        return String.valueOf("string" + "string2" + "string3");
+        return String.valueOf(string + string2 + string3);
     }
 
     public static String add(int i, int j, int k, int l) {
