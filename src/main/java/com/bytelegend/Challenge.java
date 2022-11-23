@@ -19,7 +19,7 @@ public class Challenge {
     public static String add(String ...s){
         String t="";
         for(int i=0;i<s.length;i++){
-            t+=args[i];
+            t+=s[i];
         }
         return t;
     }
