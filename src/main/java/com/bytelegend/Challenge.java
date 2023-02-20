@@ -15,12 +15,8 @@ public class Challenge {
         }
         return sum;
     }
-
-    public static String add(String.. s) {
-        String rez = "";
-        for (String i: s) {
-            rez += s;
-        }
-        return rez;
+    
+    public static String add(CharSequence... s) {
+        return String.join("", s);
     }
 }
