@@ -7,12 +7,4 @@ public class Challenge {
         System.out.println("1+2+3+4=" + add(1, 2, 3, 4));
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
-
-    public static int add(int... a) {
-        return java.util.stream.IntStream.of(a).sum();
-    }
-
-    public static String add(CharSequence... s) {
-        return String.join("", s);
-    }
 }
