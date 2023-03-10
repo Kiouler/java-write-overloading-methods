@@ -10,9 +10,9 @@ public class Challenge {
         System.out.println(add(1,2)); //3
         System.out.println(add(1,2,3)); //6
         System.out.println(add(1,2,3,4)); //10
-        System.out.println(add(6,6,6,6)); //24
+        System.out.println(add(6.0,6.0,6.0,6.0)); //24
         System.out.println(add('A','B','C')); //ABC
-        System.out.println(add("Just"+"For"+"Fun")); //ABC
+        System.out.println(add("Just"+"For"+"Fun")); //JustForFun
     }
     public static int add(int a,int b) {
         return a+b;
