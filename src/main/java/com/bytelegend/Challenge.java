@@ -23,9 +23,6 @@ public class Challenge {
     public static int add(int a,int b, int c, int d) {
         return a+b+c+d;
     }
-    public static int add(double a,double b, double c, double d) {
-        return a+b+c+d;
-    }
     public static String add(char a, char b, char c) {
         return "" + a+b+c;
     }
