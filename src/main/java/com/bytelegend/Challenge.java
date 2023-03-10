@@ -4,7 +4,7 @@ public class Challenge {
         System.out.println(add(1,2));
         System.out.println(add(1,2,3));
         System.out.println(add(1,2,3,4));
-        System.out.println(add(A,B,C));
+        System.out.println(add('A','B','C'));
     }
     //3
     public static int add(int a,int b) {
@@ -20,6 +20,6 @@ public class Challenge {
     }
     //ABC
     public static String add(char a, char b, char c) {
-        return a+b+c;
+        return "" + a+b+c;
     }
 }
