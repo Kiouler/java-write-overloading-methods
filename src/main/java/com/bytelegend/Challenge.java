@@ -1,10 +1,10 @@
 package com.bytelegend;
 public class Challenge {
     public static void main(String[] args) {
-        add(1,2);
-        add(1,2,3);
-        add(1,2,3,4);
-        add(A,B,C);
+        System.out.println(add(1,2));
+        System.out.println(add(1,2,3));
+        System.out.println(add(1,2,3,4));
+        System.out.println(add(A,B,C));
     }
     //3
     public static int add(int a,int b) {
