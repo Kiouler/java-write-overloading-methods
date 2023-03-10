@@ -11,15 +11,15 @@ public class Challenge {
         return a+b;
     }
     //6
-    public static int add(int c,int d,int e) {
-        return c+d+e;
+    public static int add(int a,int b,int c) {
+        return a+b+c;
     }
     //10
-    public static int add(int f,int g, int h, int i) {
-        return f+g+h+i;
+    public static int add(int a,int b, int c, int d) {
+        return a+b+c+d;
     }
     //ABC
-    public static String add(char j, char k, char l) {
-        return j+k+l;
+    public static String add(char a, char b, char c) {
+        return a+b+c;
     }
 }
