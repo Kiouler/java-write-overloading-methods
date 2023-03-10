@@ -5,7 +5,6 @@ public class Challenge {
         add(1,2,3);
         add(1,2,3,4);
         add(A,B,C);
-        add(x,y,z);
     }
     //3
     public static int add(int a,int b) {
