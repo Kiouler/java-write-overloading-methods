@@ -21,7 +21,7 @@ public class Challenge {
     }
 
     public static String add(String a, String b, String c) {
-        StringBuilder sb;
+        StringBuilder sb = new StringBuilder();
         sb.append(a);
         sb.append(b);
         sb.append(c);
