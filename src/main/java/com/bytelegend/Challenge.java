@@ -14,4 +14,11 @@ public class Challenge {
         }
         return result;
     }
+    public static String add(String... variables) {
+        String result = "";
+        for (var variable : variables) {
+            result += variable;
+        }
+        return result;
+    }
 }
