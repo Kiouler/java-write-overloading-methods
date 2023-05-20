@@ -9,14 +9,14 @@ public class Challenge {
     }
     public static int add(int... variables) {
         int result = 0;
-        for (var variable : variables) {
+        for (int variable : variables) {
             result += variable;
         }
         return result;
     }
     public static String add(String... variables) {
         String result = "";
-        for (var variable : variables) {
+        for (String variable : variables) {
             result += variable;
         }
         return result;
