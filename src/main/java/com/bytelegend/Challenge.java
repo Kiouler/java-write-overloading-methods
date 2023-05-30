@@ -12,7 +12,7 @@ public class Challenge {
         return Arrays.stream(array).sum();
     }
 
-    public static int add(String... array) {
+    public static String add(String... array) {
         return String.join("", array);
     }
 }
