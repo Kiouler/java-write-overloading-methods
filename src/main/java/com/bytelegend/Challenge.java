@@ -11,7 +11,7 @@ public class Challenge {
 
     public static int add(int... num) {
         int sum = 0;
-        for (x : num) sum += x;
+        for (int x : num) sum += x;
         return sum;
     }
 
