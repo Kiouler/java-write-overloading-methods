@@ -8,21 +8,19 @@ public class Challenge {
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
 
-    public static String add(int i, int i1, int i2, int i3) {
-        return String.valueOf(i+i1+i2+i3);
+    private static int add(int a, int b) {
+        return a + b;
     }
 
-    public static String add(String a, String b, String c) {
-        String res = a;
-        res = res.concat(b);
-        res = res.concat(c);
-        return res;
+    private static int add(int a, int b, int c) {
+        return a + b + c;
     }
 
-    public static String add(int i, int i1) {
-        return String.valueOf(i+i1);
+    private static int add(int a, int b, int c, int d) {
+        return a + b + c + d;
     }
 
-    public static String add(int i, int i1, int i2) {
-        return String.valueOf(i+i1+i2);
+    private static String add(String a, String b, String c) {
+        return a + b + c;
     }
+}
