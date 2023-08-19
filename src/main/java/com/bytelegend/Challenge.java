@@ -14,5 +14,5 @@ public class Challenge {
     public static String add(String... strings) {
         return String.join("", strings);
     }
-    }
+}
 
